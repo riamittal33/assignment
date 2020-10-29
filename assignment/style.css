@@ -1,0 +1,270 @@
+body{
+    background-image: url(./assets/Bg.png);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        
+}
+
+a{
+    text-decoration: none;
+}
+
+.center-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 60%;
+}
+
+
+/* page-2 starts*/
+
+.upper-part{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 410px;
+    position: relative;
+}
+
+.mainPage{
+    background-image: url(./assets/cropImgBg2.1.png);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 50%;
+    width: 30%;
+    margin-top: 3.2rem ;
+}
+
+.writing{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2rem;
+    margin: 2.5rem;
+}
+
+.writing h3{
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-top:0 ;
+    margin-bottom: 0;
+}
+
+.writing p{
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-top:0 ;
+    margin-bottom: 0;
+}
+
+.btn{
+    width: 80vw;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.get-started{
+    background-color: #f79837;
+    box-shadow: 2px 4px  #e8e8e8;
+    
+}
+
+
+.get-started h2{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+    margin-bottom: 0;
+}
+
+.get-started p{
+    margin-top: 0;
+    color: black;
+    font-size: 10px;
+}
+
+.without-login{
+    background-color: #ffffff;
+    border: 0.5px solid #f79837;
+}
+
+.without-login p{
+    font-weight: 100;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.login{
+    background-color: #ffffff;
+    color: black;
+    font-size: 0.8rem;
+    border: 0.5px solid #f79837;
+}
+
+.login p span{
+    font-weight: bold;
+    color: #f79837 ;
+}
+
+/* page-2 ends */
+
+
+/* login page starts */
+
+.loginPage{
+    height: 250px;
+    background-image: url(./assets/cropImgBg2.2.png);
+}
+
+.login-div{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-div h2{
+    display: inline-block;
+    text-align: left;
+    margin-left: 33px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.loginBtn{
+    height: 40px;
+    width: 80vw;
+    border: 0.5px solid #f79837;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px auto;
+    
+}
+
+.login-icon{
+    height: 70%;  
+}
+
+.loginBtn a{
+    text-decoration: none;
+}
+
+.loginBtn p{
+    color: #686d76;
+    margin-left: 10px;
+    margin-top: 12px;
+    
+}
+
+.loginBtn img , .loginBtn p{
+    display: inline-block;
+}
+
+
+.loginBtn img{
+    margin:5px 10px;
+    float: left;
+}
+
+.loginPage-footer{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginPage-footer p{
+    font-family: 'Roboto', sans-serif;
+    color: #968c83;
+    font-size: 0.9rem;
+    margin: 30px auto;
+}
+
+.loginPage-footer p span{
+    text-decoration: #968c83;
+}
+
+/* login page ends */
+
+/* verify page starts */
+
+.verifyPage{
+    height: 300px;
+    background-image: url(./assets/cropImgBg2.3.png);
+}
+
+.mobileNo{
+    display: block;
+    margin: 20px 33px;
+}
+
+.mobileNo p{
+    font-size: 0.7rem;
+    margin-top: 0;
+}
+
+.mobileNo .num{
+    height: 40px;
+    width: 80vw;
+    border: 0.5px solid #f79837;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    
+}
+
+.num p{
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.special p{
+    display: inline-block;
+    font-size: 10px;
+}
+
+.left{
+    float: left;
+    color: #f79837 ;
+}
+
+.right{
+    float: right;
+}
+
+.right span{
+    color: #f79837 ;
+}
+
+.proceedbtn{
+    width: 80vw;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f79837;
+    box-shadow: 2px 4px  #e8e8e8;
+}
+
+
+.proceedbtn h2{
+font-size: 1.5rem;
+letter-spacing: 0.1rem;
+color: #ffffff;
+text-shadow: 2px 2px black;
+padding : 10px
+}
